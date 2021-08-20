@@ -1,3 +1,5 @@
+import Backdrop from "./components/backdrop.component";
+import Modal from "./components/modal.component";
 import Todo from "./components/todo.component";
 
 function App() {
@@ -8,6 +10,8 @@ function App() {
      <Todo text="Master React"/>
      <Todo text="Learn Next.js"/>
      <Todo text="Master Next.js"/>
+     <Modal/>
+     <Backdrop/>
     </div>
   );
 }
