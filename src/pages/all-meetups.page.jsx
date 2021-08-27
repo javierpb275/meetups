@@ -35,7 +35,7 @@ const AllMeetupsPage = () => {
 
   return (
     <section>
-      <h1>All Meetups Page</h1>
+      <h1>All Meetups</h1>
       <MeetupList meetups={loadedMeetups} />
     </section>
   );
